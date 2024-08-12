@@ -1,0 +1,148 @@
+.v-blue {
+  color: #231E5F;
+}
+
+.v-orange {
+  color: #FF9900;
+}
+
+.v-bg {
+  background-color: #FFFEF3;
+}
+
+.l-header {
+  height: 90vh;
+  background-image: linear-gradient(to bottom, gray, gray, #FFFEF3);
+  color: #EBE812;
+  overflow-x: hidden;
+}
+.l-header h1 {
+  font-size: 8vw;
+}
+@media (max-width: 768px) {
+  .l-header h1 {
+    font-size: 4rem;
+  }
+}
+.l-header h2 {
+  font-size: 5vw;
+}
+@media (max-width: 768px) {
+  .l-header h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .l-header {
+    padding-right: 15rem;
+  }
+}
+
+.l-intro__bg {
+  min-height: 25rem;
+  width: 100%;
+  background-image: url("../media/newcomers-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-subTitle {
+  color: #FFFEF3;
+  letter-spacing: 1vw;
+}
+@media (max-width: 768px) {
+  .c-subTitle {
+    font-size: 1rem;
+  }
+}
+
+.c-topicTitle {
+  color: #231E5F;
+  background-color: #EBE812;
+  transform: rotate(-3deg);
+}
+
+.c-hand {
+  width: 100vw;
+  aspect-ratio: 16/9;
+  background-image: url("../media/hand_CD.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(-150px);
+  margin-top: -25rem;
+  margin-bottom: -25rem;
+}
+
+.c-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #231E5F solid 0.1rem;
+  border-radius: 1rem;
+}
+
+.c-portriat__wen {
+  background-image: url("../media/wenjean.png");
+  aspect-ratio: 1/1;
+  border-radius: 20rem;
+  width: 50%;
+  margin: 1.5rem;
+  background-position: center;
+  background-size: cover;
+}
+.c-portriat__jing {
+  background-image: url("../media/jing.png");
+  aspect-ratio: 1/1;
+  border-radius: 20rem;
+  width: 50%;
+  margin: 1.5rem;
+  background-position: center;
+  background-size: cover;
+}
+.c-portriat__you {
+  background-image: url("../media/newcomers-2.jpg");
+  aspect-ratio: 1/1;
+  border-radius: 20rem;
+  width: 50%;
+  margin: 1.5rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.o-titleXXL {
+  font-size: 8rem;
+}
+@media (max-width: 768px) {
+  .o-titleXXL {
+    font-size: 4.5rem;
+  }
+}
+
+.o-titleM {
+  font-size: 3rem;
+}
+
+.o-titleS {
+  color: #231E5F;
+}
+
+.o-unset {
+  all: unset;
+}
+
+.o-a {
+  all: unset;
+  color: #231E5F;
+  cursor: pointer;
+}
+.o-a:hover {
+  color: #FF9900;
+  font-weight: 900;
+}
+
+.o-icon__card {
+  font-size: 3rem;
+}/*# sourceMappingURL=broccoliStyle.css.map */

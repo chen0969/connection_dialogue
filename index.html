@@ -1,22 +1,425 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <header>
-        <h1>Hello, world!</h1>
+    <link rel="icon" type="image/x-icon" href="media/cd-logo.png">
+    <!-- cdns -->
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- font for title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- broccoli code -->
+    <link rel="stylesheet" href="scss/broccoliStyle.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body class="v-bg">
+    <header class="container-fluid overflow-hidden">
+        <div class="l-header bebas-neue-regular align-content-start">
+            <div class="row align-items-center justify-content-start pt-5">
+                <h2 class="col-4 text-end animate__animated animate__fadeInLeft">
+                    YOUTH
+                </h2>
+                <h2 class="col-5 animate__animated animate__fadeInLeft animate__delay-0.5s">
+                    IN OTTAWA
+                </h2>
+                <div class="col-3">
+                    <img class="w-50" src="media/broccoli.png" alt="broccoli logo">
+                </div>
+                <h3 class="col-12 poppins-light text-center c-subTitle">
+                    Make your value, finds you.
+                </h3>
+                <h1 class="col-12 text-center animate__animated animate__fadeInDown animate__delay-0.5s">CONNECTION DIALOGUE</h1>
+            </div>
+        </div>
     </header>
     <main>
-        <h2>
-            main content
-        </h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="c-hand col-12">
+                    &nbsp;
+                </div>
+                <i class="col-12 fs-1 text-center bi bi-chevron-double-down animate__animated animate__fadeInDown animate__repeat-3"></i>
+            </div>
+        </div>
+        <!-- where and when is the event? -->
+        <section class="container mt-5">
+            <div class="row">
+                <h2 class="col-sm-12 bebas-neue-regular c-topicTitle fs-1 mb-3">
+                    where and when is the event?
+                </h2>
+                <!-- contants -->
+                <div class="col-sm-6 mt-sm-5">
+                    <!-- location -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-2 text-sm-end">
+                            Location
+                        </h3>
+                        <p class="col-sm-10 fs-6 align-content-end">
+                            Jewish Family Services of Ottawa,
+                            2255 Carling Ave Suite 301 (3rd Floor)
+                        </p>
+                    </div>
+                    <!-- time -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-2 text-sm-end">
+                            Time
+                        </h3>
+                        <p class="col-sm-10 fs-6 align-content-end">
+                            August 14th(Wednesday) 1pm-3pm
+                        </p>
+                    </div>
+                    <!-- time -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-2 text-sm-end">
+                            Price
+                        </h3>
+                        <p class="col-sm-10 fs-6 text-danger fs-4 fw-bold align-content-end">
+                            Free for this one!
+                        </p>
+                    </div>
+                    <!-- dress code -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-4 text-sm-end">
+                            Dress Code
+                        </h3>
+                        <p class="col-sm-10 fs-6 align-content-end">
+                            Business Casual
+                        </p>
+                    </div>
+                </div>
+                <!-- google map -->
+                <div class="col-sm-6 mt-sm-5">
+                    <iframe class="w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870279.70050457!2d-80.6525837875!3d45.3688433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce01334a6e4ef1%3A0x7f61b4e3135a6f39!2sJewish%20Family%20Services%20of%20Ottawa!5e0!3m2!1sen!2sca!4v1723159859385!5m2!1sen!2sca"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- introduction -->
+        <section class="container mt-5 l-intro">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="l-intro__bg">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <div class="row align-content-center justify-content-center">
+                <h3 class="col-sm-12 bebas-neue-regular fs-1 text-center">
+                    It's time to make some difference!
+                </h3>
+                <p class="col-sm-6">
+                    As youths, we all have a feeling that we are not belong to this community.
+                    With no connections, no chances.
+                    Well my friend, it is time for us to make some changes.
+                    Let us build up our own connections and find our values in this market!
+                </p>
+            </div>
+        </section>
+        <hr>
+        <!-- how works -->
+        <section class="container mt-5">
+            <div class="row">
+                <h3 class="col-md-5 bebas-neue-regular o-titleXXL">
+                    This event will be...
+                </h3>
+                <h3 class="col-md-7 poppins-bold fs-1 align-content-center">
+                    just like a speed dating,<br>
+                    but not for dating.
+                </h3>
+            </div>
+            <hr>
+            <div class="row justify-content-end">
+                <h4 class="col-md-3 bebas-neue-regular o-titleM">
+                    Where you can:
+                </h4>
+                <div class="col-md-6 poppins-bold fs-3">
+                    <p>Introduce yourself, but focus on your niches.</p>
+                    <p>Build your local connections on real needs.</p>
+                </div>
+            </div>
+        </section>
+        <!-- how works-2 -->
+        <section class="container mt-5">
+            <div class="row justify-content-around p-3">
+                <h3 class="col-md-12 bebas-neue-regular fs-1 c-topicTitle">
+                    4 steps workflow for your participation
+                </h3>
+                <!-- prepare -->
+                <div class="col-md-2 mt-5 c-card">
+                    <i class="bi bi-person-raised-hand o-icon__card"></i>
+                    <h5>prepare</h5>
+                    <p>
+                        Prepare your
+                        connections
+                        & presentation
+                        with our template
+                        (or make by yourself!)
+                    </p>
+                </div>
+                <!-- join -->
+                <div class="col-md-2 mt-5 c-card">
+                    <i class="bi bi-person-fill-add o-icon__card"></i>
+                    <h5>join</h5>
+                    <p>
+                        Join the dialogue,
+                        Share your connections
+                        & skills with other
+                        attendees!
+                    </p>
+                </div>
+                <!-- social -->
+                <div class="col-md-2 mt-5 c-card">
+                    <i class="bi bi-people-fill o-icon__card"></i>
+                    <h5>social</h5>
+                    <p>
+                        What are you doing well?
+                        What sets
+                        you apart?
+                        What are your good qualities?
+                    </p>
+                </div>
+                <!-- gain -->
+                <div class="col-md-2 mt-5 c-card">
+                    <i class="bi bi-hand-thumbs-up-fill o-icon__card"></i>
+                    <h5>gain</h5>
+                    <p>
+                        What are you doing well?
+                        What sets
+                        you apart?
+                        What are your good qualities?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- presentation guideline -->
+        <section class="container mt-5">
+            <div class="row justify-content-around">
+                <h3 class="col-12 bebas-neue-regular fs-1 c-topicTitle">presentation guideline</h3>
+                <!-- join -->
+                <div class="col-5 mt-5 c-card">
+                    <i class="bi bi-ban o-icon__card text-danger"></i>
+                    <h5 class="o-titleS text-danger fw-bold">What we don’t need
+                        in this dialogue
+                    </h5>
+                    <ul>
+                        <li>My family members: 1 Dad, 1 Mom, 1 sister</li>
+                        <li>The best movie I like: Citizen Kane</li>
+                        <li> I am a: Cat person </li>
+                    </ul>
+                </div>
+                <!-- join -->
+                <div class="col-5 mt-5 c-card">
+                    <i class="bi bi-check-circle o-icon__card text-success"></i>
+                    <h5 class="o-titleS text-success fw-bold">What we want</h5>
+                    <ul>
+                        <li> My skill: Woodworks</li>
+                        <li> I work in: Tim Hortons</li>
+                        <li> I know: My neighbor needs a babysitter
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <!-- offer and get -->
+        <section class="container">
+            <div class="row">
+                <h4 class="col-md-2 bebas-neue-regular o-titleM">
+                    WHAT WE OFFER:
+                </h4>
+                <div class="col-md-4 poppins-bold fs-3">
+                    <p>Introduce yourself, but focus on your niches.</p>
+                    <p>Build your local connections on real needs.</p>
+                </div>
+                <h4 class="col-md-2 bebas-neue-regular o-titleM">
+                    WHAT you will get:
+                </h4>
+                <div class="col-md-4 poppins-bold fs-3">
+                    <p>Introduce yourself, but focus on your niches.</p>
+                    <p>Build your local connections on real needs.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- about  jfs -->
+        <section class="container">
+            <div class="row">
+                <h3 class="col-12 bebas-neue-regular fs-1 c-topicTitle">about jfs</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="media/jfs-logo.png" alt="jfs logo">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Jewish Family Services of Ottawa (JFS) is a full service, non-sectarian agency serving residents
+                        of the greater Ottawa area – located at 2255 Carling Avenue, Suite 300.
+                        <br>
+                        <strong>
+                            We offer more than 65 programs and services to children, youth, adults and seniors,
+                            be they individuals, couples, families or groups.
+                        </strong>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="media/jfs-office.jpg" alt="jfs office">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- get template -->
+        <section class="container">
+            <div class="row">
+                <h3 class="col-md-9 bebas-neue-regular o-titleXXL">
+                    Get your template
+                    and join us
+                    now!
+                </h3>
+                <div class="col-md-3 poppins-bold fs-1 align-content-end">
+                    <button type="button" class="btn btn-success w-100">
+                        <a class="text-white bebas-neue-regular fs-1" href="ppt/Connection Dialogue_ Template.pptx"
+                            download>Template</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- contact -->
+        <section class="container mt-5">
+            <div class="row p-3">
+                <h2 class="col-sm-12 bebas-neue-regular c-topicTitle fs-1 mb-3">
+                    contact us
+                </h2>
+                <!-- contants -->
+                <div class="col-sm-10 mt-sm-5">
+                    <!-- location -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-2 text-sm-end">
+                            Location
+                        </h3>
+                        <p class="col-sm-10 fs-4 o-a">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Jewish Family Services of Ottawa,
+                            2255 Carling Ave Suite 301 (3rd Floor)
+                        </p>
+                    </div>
+                    <!-- phone -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-3 text-sm-end">
+                            Phone
+                        </h3>
+                        <a class="col-sm-10 fs-3 o-a" href="tel:+13439884869">
+                            <i class="bi bi-telephone-fill"></i>
+                            343-988-4869
+                        </a>
+                    </div>
+                    <!-- email -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-3 text-sm-end">
+                            email
+                        </h3>
+                        <a class="col-sm-10 fs-4 o-a" href="mailto:who@jfsottawa.com">
+                            <i class="bi bi-envelope-at-fill"></i>
+                            who@jfsottawa.com
+                        </a>
+                    </div>
+                    <!-- dress code -->
+                    <div class="row">
+                        <h3 class="col-sm-2 bebas-neue-regular fs-3 text-sm-end">
+                            instagram
+                        </h3>
+                        <a class="col-sm-10 fs-4 o-a" href="https://www.instagram.com/jfsottawa/">
+                            <i class="bi bi-instagram"></i>
+                            https://www.instagram.com/jfsottawa/
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- member -->
+        <section class="container mt-5">
+            <div class="row align-content-center justify-content-around p-3">
+                <h2 class="col-sm-12 bebas-neue-regular c-topicTitle fs-1 mb-3">
+                    who will be part of this dialogue
+                </h2>
+                <!-- wen jean -->
+                <div class="col-md-2 mt-5 c-card">
+                    <div class="c-portriat__wen">
+                        &nbsp;
+                    </div>
+                    <h5 class="bebas-neue-regular fs-4 o-titleS">Wenjean ho</h5>
+                    <p class="poppins-thin fs-6">
+                        Event Director / Producer
+                    </p>
+                </div>
+                <!-- jing an -->
+                <div class="col-md-2 mt-5 c-card">
+                    <div class="c-portriat__jing">
+                        &nbsp;
+                    </div>
+                    <h5 class="bebas-neue-regular fs-4 o-titleS">jing-an chen</h5>
+                    <p class="poppins-thin fs-6">
+                        Co-Director / Design Lead
+                    </p>
+                </div>
+                <!-- and you! -->
+                <div class="col-md-2 mt-5 c-card">
+                    <div class="c-portriat__you">
+                        &nbsp;
+                    </div>
+                    <h5 class="bebas-neue-regular fs-4 o-titleS">and you!</h5>
+                    <p class="poppins-thin fs-6">
+                        you will not only be a attendee,
+                        but a member with us!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
     </main>
-    <footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer class="container-fluid mt-5">
+        <div class="row align-content-center justify-content-center">
+            <h4 class="col-md-12 bebas-neue-regular fs-1 mb-3 text-center">Special thanks</h4>
+            <div class="col-md-12 d-flex align-items-center justify-content-center">
+                <img src="media/support-logo.png" alt="logos">
+            </div>
+            <h4 class="col-md-12 bebas-neue-regular fs-1 mb-3 text-center">see you in the dialogue! </h4>
+            <hr>
+            <div class="col-md-12">
+                <i class="bi bi-c-circle"></i>
+                <a class="o-unset" href="https://broccoli-design.great-site.net/index.html">2024 Broccoli Design Studio,
+                    All rights reserved.</a>
+            </div>
+        </div>
+
     </footer>
-  </body>
+    <!-- jq\uery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- my code -->
+     <script src="js/effects.js"></script>
+</body>
+
 </html>
