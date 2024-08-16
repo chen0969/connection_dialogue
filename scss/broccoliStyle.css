@@ -48,6 +48,11 @@
   background-size: cover;
 }
 
+.l-eventbrite {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
 .c-subTitle {
   color: #FFFEF3;
   letter-spacing: 1vw;
