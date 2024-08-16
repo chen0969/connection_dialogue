@@ -5,7 +5,7 @@ $bg_color: #FFFEF3;
 
 // mixin
 
-@mixin portriat{
+@mixin portriat {
     aspect-ratio: 1/1;
     border-radius: 20rem;
     width: 50%;
@@ -15,47 +15,52 @@ $bg_color: #FFFEF3;
 }
 
 // var
-.v-blue{
+.v-blue {
     color: $prime_blue;
 }
 
-.v-orange{
+.v-orange {
     color: $prime_orange;
 }
 
-.v-bg{
+.v-bg {
     background-color: $bg_color;
 }
-  
+
 // layout
 
-.l-header{
+.l-header {
     height: 90vh;
     background-image: linear-gradient(to bottom, gray, gray, $bg_color);
     color: $prime_yellow;
     overflow-x: hidden;
-    h1{
+
+    h1 {
         font-size: 8vw;
+
         @media (max-width: 768px) {
-            font-size: 4rem;  
-           }
+            font-size: 4rem;
+        }
     }
-    h2{
+
+    h2 {
         font-size: 5vw;
+
         @media (max-width: 768px) {
-            font-size: 2rem;  
-           }
+            font-size: 2rem;
+        }
     }
+
     @media (min-width: 768px) {
         padding-right: 15rem;
     }
 }
 
-.l-intro{
-    &__bg{
+.l-intro {
+    &__bg {
         min-height: 25rem;
         width: 100%;
-        background-image: url('../media/newcomers-1.jpg');
+        background-image: url('../media/lastEvent.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -64,21 +69,22 @@ $bg_color: #FFFEF3;
 
 // component
 
-.c-subTitle{
+.c-subTitle {
     color: $bg_color;
     letter-spacing: 1vw;
+
     @media (max-width: 768px) {
-        font-size: 1rem;  
-       }
+        font-size: 1rem;
+    }
 }
 
-.c-topicTitle{
+.c-topicTitle {
     color: $prime_blue;
     background-color: $prime_yellow;
     transform: rotate(-3deg);
 }
 
-.c-hand{
+.c-hand {
     width: 100vw;
     aspect-ratio: 16/9;
     background-image: url('../media/hand_CD.png');
@@ -88,12 +94,15 @@ $bg_color: #FFFEF3;
     transform: translateY(-150px);
     margin-top: -25rem;
     margin-bottom: -25rem;
+
     @media (max-width: 768px) {
         transform: translateY(0);
-       }
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
-.c-card{
+.c-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,16 +111,18 @@ $bg_color: #FFFEF3;
     border-radius: 1rem;
 }
 
-.c-portriat{
-    &__wen{
+.c-portriat {
+    &__wen {
         background-image: url('../media/wenjean.png');
         @include portriat();
     }
-    &__jing{
+
+    &__jing {
         background-image: url('../media/jing.png');
         @include portriat();
     }
-    &__you{
+
+    &__you {
         background-image: url('../media/newcomers-2.jpg');
         @include portriat();
     }
@@ -119,37 +130,40 @@ $bg_color: #FFFEF3;
 
 // object
 
-.o-titleXXL{
+.o-titleXXL {
     font-size: 8rem;
+
     @media (max-width: 768px) {
-     font-size: 4.5rem;;   
+        font-size: 4.5rem;
+        ;
     }
 }
 
-.o-titleM{
+.o-titleM {
     font-size: 3rem;
 }
 
-.o-titleS{
+.o-titleS {
     color: $prime_blue;
 }
 
-.o-unset{
+.o-unset {
     all: unset;
 }
 
-.o-a{
+.o-a {
     all: unset;
     color: $prime_blue;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         color: $prime_orange;
         font-weight: 900;
     }
 }
 
-.o-icon{
-    &__card{
+.o-icon {
+    &__card {
         font-size: 3rem;
     }
 }
