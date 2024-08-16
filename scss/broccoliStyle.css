@@ -47,6 +47,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.l-intro__iframe {
+  height: 15rem;
+  width: auto;
+}
 
 .l-eventbrite {
   width: 100%;

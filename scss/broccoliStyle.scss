@@ -66,6 +66,10 @@ $bg_color: #FFFEF3;
         background-repeat: no-repeat;
         background-size: cover;
     }
+    &__iframe{
+        height: 15rem;
+        width: auto;
+    }
 }
 
 .l-eventbrite{
