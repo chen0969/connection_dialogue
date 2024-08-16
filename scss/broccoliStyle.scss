@@ -88,6 +88,9 @@ $bg_color: #FFFEF3;
     transform: translateY(-150px);
     margin-top: -25rem;
     margin-bottom: -25rem;
+    @media (max-width: 768px) {
+        transform: translateY(0);
+       }
 }
 
 .c-card{
