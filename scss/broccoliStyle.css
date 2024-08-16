@@ -11,7 +11,7 @@
 }
 
 .l-header {
-  height: 90vh;
+  height: 50vh;
   background-image: linear-gradient(to bottom, gray, gray, #FFFEF3);
   color: #EBE812;
   overflow-x: hidden;
@@ -35,6 +35,7 @@
 @media (min-width: 768px) {
   .l-header {
     padding-right: 15rem;
+    height: 90vh;
   }
 }
 
@@ -77,8 +78,10 @@
 @media (max-width: 768px) {
   .c-hand {
     transform: translateY(0);
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: -5rem;
+    margin-bottom: 0rem;
+    width: auto;
+    height: 18rem;
   }
 }
 
