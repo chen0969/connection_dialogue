@@ -29,7 +29,23 @@ $bg_color: #FFFEF3;
 
 // layout
 
-.l-header {
+.l-header{
+    width: 100%;
+    .nav-item{
+        .nav-link{
+            color: $prime_orange;
+            &:hover{
+                color: $prime_yellow;
+                background-color: $prime_orange;
+            }
+        }
+        .activeLink{
+            background-color: $prime_blue;
+        }
+    }
+}
+
+.l-subheader {
     height: 50vh;
     background-image: linear-gradient(to bottom, gray, gray, $bg_color);
     color: $prime_yellow;
@@ -76,6 +92,8 @@ $bg_color: #FFFEF3;
     width: 100%;
     aspect-ratio: 16/9;
 }
+
+
 
 // component
 
@@ -134,9 +152,26 @@ $bg_color: #FFFEF3;
         @include portriat();
     }
 
+    &__yuki {
+        background-image: url('../media/yuki.jpeg');
+        @include portriat();
+    }
+
+    &__kevin {
+        background-image: url('../media/kevin.jpeg');
+        @include portriat();
+    }
+
     &__you {
         background-image: url('../media/newcomers-2.jpg');
         @include portriat();
+    }
+}
+
+.c-meta{
+    display: flex;
+    @media (max-width:768px) {
+        display: none;
     }
 }
 
@@ -147,7 +182,6 @@ $bg_color: #FFFEF3;
 
     @media (max-width: 768px) {
         font-size: 4.5rem;
-        ;
     }
 }
 
@@ -177,5 +211,15 @@ $bg_color: #FFFEF3;
 .o-icon {
     &__card {
         font-size: 3rem;
+    }
+}
+
+.o-logo{
+    all: unset;
+    display: block;
+    cursor: pointer;
+    &__img{
+        display: block;
+        width: 2rem;
     }
 }

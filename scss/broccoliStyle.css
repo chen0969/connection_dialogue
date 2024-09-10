@@ -11,29 +11,43 @@
 }
 
 .l-header {
+  width: 100%;
+}
+.l-header .nav-item .nav-link {
+  color: #FF9900;
+}
+.l-header .nav-item .nav-link:hover {
+  color: #EBE812;
+  background-color: #FF9900;
+}
+.l-header .nav-item .activeLink {
+  background-color: #231E5F;
+}
+
+.l-subheader {
   height: 50vh;
   background-image: linear-gradient(to bottom, gray, gray, #FFFEF3);
   color: #EBE812;
   overflow-x: hidden;
 }
-.l-header h1 {
+.l-subheader h1 {
   font-size: 8vw;
 }
 @media (max-width: 768px) {
-  .l-header h1 {
+  .l-subheader h1 {
     font-size: 4rem;
   }
 }
-.l-header h2 {
+.l-subheader h2 {
   font-size: 5vw;
 }
 @media (max-width: 768px) {
-  .l-header h2 {
+  .l-subheader h2 {
     font-size: 2rem;
   }
 }
 @media (min-width: 768px) {
-  .l-header {
+  .l-subheader {
     padding-right: 15rem;
     height: 90vh;
   }
@@ -121,6 +135,24 @@
   background-position: center;
   background-size: cover;
 }
+.c-portriat__yuki {
+  background-image: url("../media/yuki.jpeg");
+  aspect-ratio: 1/1;
+  border-radius: 20rem;
+  width: 50%;
+  margin: 1.5rem;
+  background-position: center;
+  background-size: cover;
+}
+.c-portriat__kevin {
+  background-image: url("../media/kevin.jpeg");
+  aspect-ratio: 1/1;
+  border-radius: 20rem;
+  width: 50%;
+  margin: 1.5rem;
+  background-position: center;
+  background-size: cover;
+}
 .c-portriat__you {
   background-image: url("../media/newcomers-2.jpg");
   aspect-ratio: 1/1;
@@ -129,6 +161,15 @@
   margin: 1.5rem;
   background-position: center;
   background-size: cover;
+}
+
+.c-meta {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .c-meta {
+    display: none;
+  }
 }
 
 .o-titleXXL {
@@ -164,4 +205,14 @@
 
 .o-icon__card {
   font-size: 3rem;
+}
+
+.o-logo {
+  all: unset;
+  display: block;
+  cursor: pointer;
+}
+.o-logo__img {
+  display: block;
+  width: 2rem;
 }/*# sourceMappingURL=broccoliStyle.css.map */
