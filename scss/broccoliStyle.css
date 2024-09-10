@@ -172,6 +172,12 @@
   }
 }
 
+.c-img__img {
+  width: 100%;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
 .o-titleXXL {
   font-size: 8rem;
 }
