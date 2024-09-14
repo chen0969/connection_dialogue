@@ -15,3 +15,7 @@ $(window).on('scroll', function() {
         $(".c-hand").css("transform", "translateY(-300px)");
     }
 });
+
+function getTicket(){
+    window.open("https://www.eventbrite.ca/e/copy-of-youth-connection-dialogue-in-ottawa-for-the-first-time-in-forever-tickets-1011521938347?aff=oddtdtcreator");
+}

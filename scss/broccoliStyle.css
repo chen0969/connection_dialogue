@@ -136,7 +136,7 @@
   background-size: cover;
 }
 .c-portriat__yuki {
-  background-image: url("../media/yuki.jpeg");
+  background-image: url("../media/yuki.jpg");
   aspect-ratio: 1/1;
   border-radius: 20rem;
   width: 50%;
@@ -221,4 +221,22 @@
 .o-logo__img {
   display: block;
   width: 2rem;
+}
+
+.o-btn {
+  transition: 0.3s;
+}
+.o-btn:hover {
+  transform-origin: 50% 50%;
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.s-onlyPhone {
+  display: block;
+}
+@media (max-width: 768px) {
+  .s-onlyPhone {
+    display: none;
+  }
 }/*# sourceMappingURL=broccoliStyle.css.map */
